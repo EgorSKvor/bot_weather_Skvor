@@ -89,7 +89,7 @@ async def get_city(message: Message, state: FSMContext):
 
 #     async def cmd_dialog_name(message: types.Message):
 #         await Dialog.wait_name.set()
-#         await message.reply("Человечишка, напиши мне свое жалкое мнение")
+#         await message.reply("Check")
 
 #     @dp.message_handler(state=Dialog.wait_city)
 #     async def get_city(message: Message, state: FSMContext):
